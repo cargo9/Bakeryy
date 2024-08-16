@@ -1,0 +1,26 @@
+.ulheader {
+    display: flex;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card1 {
+    background-color: #272727;
+    border: 1px solid #272727;
+    height: 225px;
+}
+
+.card2 {
+    background-color: #272727;
+    border: 1px solid #272727;
+    height: 225px;
+}
+
+.card3 {
+    background-color: #EBAD51;
+    border: 1px solid #EBAD51;
+    height: 225px;
+}
