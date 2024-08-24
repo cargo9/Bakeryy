@@ -94,8 +94,7 @@ body {
     height: 229px;
     flex-shrink: 0;
     border: 1px solid #FFF;
-    margin-left: 275px;
-    margin-right: 198px;
+    margin-left: 188px;
 }
 
 .card1-2pmain {
@@ -128,9 +127,13 @@ body {
 }
 
 .bulca3 {
-    margin-right: 300px;
+    margin-left: 115px;
+    margin-top: -50px;
 }
 
+.bulca1 {
+    margin-top: -100px;
+}
 
 .button1-2maincard {
     width: 160px;
