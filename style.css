@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter-Italic-VariableFont_opsz\,wght.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -10,7 +17,7 @@ body {
     margin-top: 0;
     gap: 30px;
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 200;
@@ -24,7 +31,7 @@ body {
 .cards {
     display: flex;
     flex-shrink: 0;
-    margin: 0;
+    margin-bottom: 52px;
 }
 
 .card1 {
@@ -41,7 +48,6 @@ body {
     background-color: #EBAD51;
 }
 
-.card1_button {}
 
 .card2 {
     background-color: #272727;
@@ -71,9 +77,37 @@ body {
     background-color: #EBAD51;
 }
 
+
+.card3img {
+    width: 180px;
+}
+
 .maincards1-2 {
     display: flex;
-    border: 1px solid white;
+    justify-content: space-around;
+    margin-top: 18px;
+    margin-bottom: 57px;
+}
+
+.maincard1 {
+    width: 328px;
+    height: 229px;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+    margin-left: 275px;
+    margin-right: 198px;
+}
+
+.card1pmain {
+    width: 92.195px;
+    height: 31.756px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 25.92px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
 .header {
@@ -93,7 +127,7 @@ body {
 
 .h3_header {
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 70px;
     font-style: normal;
     font-weight: 200;
@@ -106,7 +140,7 @@ body {
 
 .p_header {
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 21px;
     font-style: normal;
     font-weight: 300;
@@ -128,7 +162,7 @@ body {
     margin-top: 33px;
     margin-bottom: 125px;
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 300;
@@ -141,16 +175,17 @@ body {
     flex-shrink: 0;
     background: #C85312;
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+    border: none;
 }
 
 .divcard {
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     line-height: normal;
 }
@@ -173,9 +208,10 @@ body {
     color: #FFF;
     display: flex;
     justify-content: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 64px;
     font-style: normal;
     font-weight: 100;
     line-height: normal;
+    margin-top: -52px;
 }
