@@ -98,10 +98,46 @@ body {
     margin-right: 198px;
 }
 
-.card1pmain {
+.card1-2pmain {
     width: 92.195px;
     height: 31.756px;
     flex-shrink: 0;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 25.92px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: -15px;
+    margin-left: 121px;
+}
+
+.maincard2 {
+    border: 1px solid #FFF;
+    width: 328px;
+    height: 229px;
+}
+
+.button1maincard {
+    margin-left: 80px;
+}
+
+.bulca2 {
+    margin-right: -400px;
+    margin-top: -42px;
+}
+
+.bulca3 {
+    margin-right: 300px;
+}
+
+
+.button1-2maincard {
+    width: 160px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 17px;
+    background: #B47B48;
     color: #FFF;
     font-family: 'Inter', sans-serif;
     font-size: 25.92px;
